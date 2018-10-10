@@ -136,4 +136,4 @@ function sendEmail(auth, msg) {
 }
 
 //Start the app by listening on the default Heroku Port
-app.listen(8080);
+app.listen(process.env.PORT || 8080);
