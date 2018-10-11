@@ -262,7 +262,7 @@ export class A5ChatWindowComponent implements OnInit {
     this.currentResponseCardPosition = position;
     this.botOptionsTitle = botOptions[position].title;
     if (botOptions[position].imageUrl) {
-      this.botOptionsImg = botOptions[position].imageUrl;
+      this.botOptionsImg = true;
     } else {
       this.botOptionsImg = undefined;
     }

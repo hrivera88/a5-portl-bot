@@ -46,7 +46,7 @@
     </div> -->
     <div class="bot-menu-options" [@bounceMenu]="bounceMenu" *ngIf="showBotOptions">
       <div class="bot-option-img" *ngIf="botOptionsImg">
-        <img [src]="botOptionsImg" alt="" srcset="">
+        <img *ngIf="currentTheme === 'jurassic world'" src="../../assets/img/featurettes-header.png" alt="" srcset="">
       </div>
       <div class="bot-option-title" *ngIf="!botOptionsImg">
         <p>{{botOptionsTitle}}</p>
