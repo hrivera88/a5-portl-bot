@@ -1,4 +1,4 @@
-<div class="message" [ngClass]="{'user': userMessage, 'jurassic': currentTheme === 'jurassic world'}" [innerHtml]="messageContent | htmlSanitizer"
-  [@bubbleState]="bubbleType">
+<div class="message" [ngClass]="{'user': userMessage, 'jurassic': currentTheme === 'jurassic world', 'skyscraper': currentTheme === 'skyscraper' }"
+  [innerHtml]="messageContent | htmlSanitizer" [@bubbleState]="bubbleType">
   <!-- <p class="name" *ngIf="name">{{name}}</p> -->
 </div>

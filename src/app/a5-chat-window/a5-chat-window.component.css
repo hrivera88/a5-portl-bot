@@ -376,3 +376,26 @@ button.more-options-btn span {
 .jurassic #message-submission button {
   color: #3a4e53;
 }
+
+.skyscraper #window-banner {
+  background-image: url("../../assets/img/s-bg-one.png");
+  background-size: cover;
+}
+.skyscraper #message-list {
+  background: #d6d6d6;
+}
+.skyscraper .bot-menu-options {
+  background-image: url("../../assets/img/s-bottom-bg.png");
+  background-size: cover;
+}
+.skyscraper .bot-option-title p {
+  color: #fdf2ba;
+}
+.skyscraper #dialog-options button {
+  border: 1px solid #dac458;
+  color: #fdf2ba;
+  background: none;
+}
+.skyscraper #message-submission button {
+  color: #3a4e53;
+}

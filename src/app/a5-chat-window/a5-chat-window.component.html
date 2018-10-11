@@ -1,4 +1,4 @@
-<div class="window-container" [ngClass]="{'jurassic': currentTheme === 'jurassic world'}">
+<div class="window-container" [ngClass]="{'jurassic': currentTheme === 'jurassic world', 'skyscraper': currentTheme === 'skyscraper'}">
   <div id="window-banner">
     <!-- <div class="hide-chat">
       <fa-icon [icon]="faArrowAltCircleLeft"></fa-icon>
@@ -7,6 +7,7 @@
     <div class="logo">
       <img *ngIf="currentTheme === 'portl'" src="../../assets/img/portl-logo.png" alt="" srcset="">
       <img *ngIf="currentTheme === 'jurassic world'" src="../../assets/img/jurassic_world.png" alt="" srcset="">
+      <img *ngIf="currentTheme === 'skyscraper'" src="../../assets/img/sky-logo.png" alt="" srcset="">
     </div>
     <!-- <div class="end-chat">
       <fa-icon [icon]="faTimesCircle"></fa-icon>

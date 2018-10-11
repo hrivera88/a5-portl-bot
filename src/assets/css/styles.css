@@ -24,6 +24,7 @@ body {
 .message iframe {
   border: 0;
   margin: 5px 0;
+  max-width: 240px;
 }
 .message img,
 .message video {
